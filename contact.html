@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>My E-Portfolio</title>
+	<link rel="stylesheet" href="esss.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|PT+Sans" rel="stylesheet">
+	<script src="galleria/galleria-1.4.2.min.js"></script>
+	<style>
+		.galleria{ width: 700px; height: 400px; background: #000 }
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="bg1" class="bgs"></div>
+<div id="header"><font id=white>Damien Michael Barden</font id></div>
+<div id="lul">
+	<div id="ddd">
+	<div class="navbar">
+		<a href="home.html">Home</a>
+		<a href="future.html">Future</a>
+		<div class="dropdown">
+			<button class="dropbtn">Education
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="schoolhistory.html">Schools</a>
+				<a href="gcses.html">GCSEs</a>
+				<a href="colleges.html">Colleges</a>
+				<a href="prevwork.html">Previous Work</a>
+			</div>
+		</div>
+		<a href="aboutme.html">About Me</a>
+		<a href="contact.html">Contact Details</a>
+	</div>
+	</div>
+	</div>
+<div class="container">
+	<form action="home.html">
+		
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+		
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		
+		<label for="country">Country</label>
+		<select id="country" name="country">
+			<option value="england">England</option>
+			<option value="sctland">Scotland</option>
+			<option value="ireland">Ireland</option>
+		</select>
+		
+		<label for="subject">Message</label>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+	</textarea>
+	
+		<input type="submit" value="Submit">
+		
+	</form>
+</div>
+<div id="fb">
+	<a href="https://www.facebook.com/damien.barden">
+		<img src="ficon.png" alt="facebook" style="width:50px;height:50px;">
+		<center>Click here to go to my FaceBook page.</center>
+	</a>
+</div>
+</body>
+
+</html>

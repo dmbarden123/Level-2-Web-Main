@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>My E-Portfolio</title>
+	<link rel="stylesheet" href="esss.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|PT+Sans" rel="stylesheet">
+	<script src="galleria/galleria-1.4.2.min.js"></script>
+	<style>
+		.galleria{ width: 700px; height: 400px; background: ; }
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div id="header"><font id=white>Damien Michael Barden</font id></div>
+<div id="lul">
+	<div id="ddd">
+	<div class="navbar">
+		<a href="home.html">Home</a>
+		<a href="future.html">Future</a>
+		<div class="dropdown">
+			<button class="dropbtn">Education
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="schoolhistory.html">Schools</a>
+				<a href="gcses.html">GCSEs</a>
+				<a href="colleges.html">Colleges</a>
+				<a href="prevwork.html">Previous Work</a>
+			</div>
+		</div>
+		<a href="aboutme.html">About Me</a>
+		<a href="contact.html">Contact Details</a>
+	</div>
+	</div>
+	</div>
+<script>
+	if (Galleria) { $("body").text('Galleria works')
+</script>
+<div id="prevwork">
+<h2><center>This is a display of the work that I am most proud of.</h2>
+<div class="galleria">
+	<img src="gpic1.jpg">
+	<img src="gpic2.jpg">
+</div>
+</div>
+<script>
+	Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js')
+	Galleria.run('.galleria')
+</script>
+</body>
+
+</html>

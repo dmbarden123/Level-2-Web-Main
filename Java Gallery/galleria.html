@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+		<script src="galleria/galleria-1.4.2.min.js"></script>
+		<style>
+			.galleria{ width: 700px; height: 400px; background: #000 }
+		</style>
+	</head>
+	<body>
+		<script>
+				if (Galleria) { $("body").text('Galleria works') }
+		</script>
+		<div class="galleria">
+			<img src="2000-ford-focus-se_100028195_m.jpg">
+			<img src="2000_ford_focus_wagon_se_fq_oem_3_500.jpg">
+			<img src="2000_ford_focus_sedan_se_rq_oem_1_500.jpg">
+		</div>
+		<script>
+			Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+			Galleria.run('.galleria');
+		</script>
+	</body>
+</html>

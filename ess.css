@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#red {
+color: red;
+font-style: italic;
+font-size:24px;
+font-family: "Courier New", Courier, monospace
+}
+#white {
+color: white;
+}
+#black {
+color:#000000;
+font-family: "Helvetica", Gadget, serif
+}
+#black2 {
+color:#000000;
+font-family: "courier";
+}
+body {
+margin: 0px;
+padding: 0px;
+}
+#header {
+background:	#000000;
+width:100%;
+height:150px;
+text-align:center;
+line-height:150px;
+font-size:60px;
+}
+#leftcolumn {
+background: lightgrey;
+float:left;
+width: 25%;
+height: 700px;
+}
+#content {
+background: white;
+float:left;
+width:75%;
+height:700px
+}
+#footer {
+background: #000000;
+clear:both;
+width:100%;
+text-align:center;
+height: 25px;
+line-height:25px;
+}
